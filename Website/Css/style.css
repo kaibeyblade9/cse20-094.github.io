@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../CITY-OSA-2.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	position: absolute;
+	list-style-type: none;
+	margin-top: 25px;
+	top: 30%;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 60px;
+	height: auto;
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.
+
+#mytitle{
+	padding-top: 20px;
+}
+
+.navigation{
+	padding-top: 40px;
+	padding-bottom: 40px ;
+	position: unset !important;
+	list-style-type: none !important;
+	margin-top: unset !important;
+	top: 0; 
+}
+.Box{
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Inner_Box{
+	max-width: 450px;
+	position: relative;
+	display: block;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	background:#2F4F4F;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	padding: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.Box2{
+	height: 70vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Inner_Box2{
+	max-width: 900px;
+	position: relative;
+	display: block;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background:#2F4F4F;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	padding: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.Box3{
+	height: 70vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Inner_Box3{
+	max-width: 1500px;
+	position: relative;
+	display: block;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background:#2F4F4F;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	padding: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.Box4{
+	height: 70vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Inner_Box4{
+	max-width: 1000px;
+	position: relative;
+	display: block;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background:#2F4F4F;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	padding: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.Box5{
+	height: 70vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Inner_Box5{
+	max-width: 1000px;
+	position: relative;
+	display: block;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background:#2F4F4F;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	padding: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+}
+footer{
+	background: #111;
+	height: auto;
+	width: 100vw;
+	font-family: "Open Sans";
+	padding-top: 40px;
+	color: #fff;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+.contact-box{
+	width: 500px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+form{
+	margin: 35px;
+}
+.input-field{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
+}

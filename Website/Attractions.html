@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Osaka city</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
+		.gallery{
+			border: 0.8px solid #ccc;
+		}
+
+		.gallery img{
+			width: 100%;
+			height: auto;
+		}
+
+		.des{
+			padding: 7px;
+			text-align: center;
+			color: #fff
+		}
+		.responsive{
+			padding: 15px;
+			float: left;
+			width: 20%;
+		}
+
+		@media only screen and (max-width: 700px){
+			.responsive{
+				width: 50px;
+				margin: 6px 0;
+			}
+		}
+
+		@media only screen and (max-width: 500px){
+			.responsive{
+				width: 50%
+			}
+		}
+	</style>
+</head>
+<body>
+<header>
+	<div class="main">
+		<!--
+			CHANGES
+
+			- added class called navigation for the UL(unordered list) housing your links
+			     - this class resets everthing you did on the ul element hence the !important and unset values on the position and margin values (hope this makes sense)
+
+		-->
+		<div class="title" id="mytitle">
+			<h1>Attractions</h1>
+		</div>
+
+		<div class="logo">
+			<img src="city.jpg">
+		<ul class="navigation">
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="./Lifestyle.html">Lifestyle</a></li>
+			<li><a href="./History.html">History</a></li>
+			<li><a href="./Culture.html">Culture</a></li>
+			<li><a href="./Attractions.html">Attractions</a></li>
+			<li><a href="./Feedback.html">Feedback</a></li>
+		</ul>
+		
+	</div>
+	
+	
+	<div class="responsive">
+		<div class="gallery">
+			<a href="Pictures/1.jpg" target="_blank"><img src="Pictures/1.jpg"></a>
+			<div class="des">The Kobe Port Tower</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery">
+			<a href="Pictures/2.jpg" target="_blank"><img src="Pictures/2.jpg"></a>
+			<div class="des">Aquarium Kaiyuken</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery">
+			<a href="Pictures/3.jpg" target="_blank"><img src="Pictures/3.jpg"></a>
+			<div class="des">keitakuen Park</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery">
+			<a href="Pictures/5.jpg" target="_blank"><img src="Pictures/5.jpg"></a>
+			<div class="des">Osaka National Museum of Art</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery">
+			<a href="Pictures/6.jpg" target="_blank"><img src="Pictures/6.jpg"></a>
+			<div class="des">Shitenno-ji Temple</div>
+		</div>
+	</header>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <footer>
+	 	<div class="footer-content">
+	 		<h3></h3>
+	 		<ul1 class="socials">
+	 			<li1><a href="#"><i class="fa fa-facebook"></i></a></li1>
+	 			<li1><a href="#"><i class="fa fa-twitter"></i></a></li1>
+	 			<li1><a href="#"><i class="fa fa-youtube"></i></a></li1>
+	 			<li1><a href="#"><i class="fa fa-linkedin"></i></a></li1>
+	 		</ul1>
+	 	</div>
+<div class="footer-bottom">
+	<p>copyright &copy;2021 Osakacity. designed by <span>KevinM</span></p>
+</div>
+	 </footer>
+</body>
+
+</html>
